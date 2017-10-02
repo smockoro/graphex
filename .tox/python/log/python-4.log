@@ -1,0 +1,15 @@
+actionid: python
+msg: installpkg
+cmdargs: ['/Users/mockoro/python-workspace/graphex/.tox/python/bin/pip', 'install', '-U', '--no-deps', '/Users/mockoro/python-workspace/graphex/.tox/dist/Tutorial-0.0.1.zip']
+
+Processing ./.tox/dist/Tutorial-0.0.1.zip
+Building wheels for collected packages: Tutorial
+  Running setup.py bdist_wheel for Tutorial: started
+  Running setup.py bdist_wheel for Tutorial: finished with status 'done'
+  Stored in directory: /Users/mockoro/Library/Caches/pip/wheels/34/3e/25/cef03eea547e11c80288bcb9eff63e68b1e5f7073677c04243
+Successfully built Tutorial
+Installing collected packages: Tutorial
+  Found existing installation: Tutorial 0.0.1
+    Uninstalling Tutorial-0.0.1:
+      Successfully uninstalled Tutorial-0.0.1
+Successfully installed Tutorial-0.0.1

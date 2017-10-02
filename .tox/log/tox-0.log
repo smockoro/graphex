@@ -1,0 +1,36 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/Users/mockoro/.pyenv/versions/3.5.1/envs/graphillion/bin/python', local('/Users/mockoro/python-workspace/graphex/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/Users/mockoro/python-workspace/graphex/.tox/dist')]
+
+running sdist
+running egg_info
+writing dependency_links to Tutorial.egg-info/dependency_links.txt
+writing Tutorial.egg-info/PKG-INFO
+writing top-level names to Tutorial.egg-info/top_level.txt
+reading manifest file 'Tutorial.egg-info/SOURCES.txt'
+writing manifest file 'Tutorial.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating Tutorial-0.0.1
+creating Tutorial-0.0.1/Tutorial.egg-info
+making hard links in Tutorial-0.0.1...
+hard linking setup.py -> Tutorial-0.0.1
+hard linking Tutorial.egg-info/PKG-INFO -> Tutorial-0.0.1/Tutorial.egg-info
+hard linking Tutorial.egg-info/SOURCES.txt -> Tutorial-0.0.1/Tutorial.egg-info
+hard linking Tutorial.egg-info/dependency_links.txt -> Tutorial-0.0.1/Tutorial.egg-info
+hard linking Tutorial.egg-info/top_level.txt -> Tutorial-0.0.1/Tutorial.egg-info
+Writing Tutorial-0.0.1/setup.cfg
+creating '.tox/dist/Tutorial-0.0.1.zip' and adding 'Tutorial-0.0.1' to it
+adding 'Tutorial-0.0.1/PKG-INFO'
+adding 'Tutorial-0.0.1/setup.cfg'
+adding 'Tutorial-0.0.1/setup.py'
+adding 'Tutorial-0.0.1/Tutorial.egg-info/dependency_links.txt'
+adding 'Tutorial-0.0.1/Tutorial.egg-info/PKG-INFO'
+adding 'Tutorial-0.0.1/Tutorial.egg-info/SOURCES.txt'
+adding 'Tutorial-0.0.1/Tutorial.egg-info/top_level.txt'
+removing 'Tutorial-0.0.1' (and everything under it)

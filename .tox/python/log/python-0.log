@@ -1,0 +1,8 @@
+actionid: python
+msg: getenv
+cmdargs: ['/Users/mockoro/.pyenv/versions/3.5.1/envs/graphillion/bin/python', '-m', 'virtualenv', '--python', '/Users/mockoro/.pyenv/versions/3.5.1/envs/graphillion/bin/python', 'python']
+
+Already using interpreter /Users/mockoro/.pyenv/versions/3.5.1/envs/graphillion/bin/python
+Using base prefix '/Users/mockoro/.pyenv/versions/3.5.1'
+New python executable in /Users/mockoro/python-workspace/graphex/.tox/python/bin/python
+Installing setuptools, pip, wheel...done.
