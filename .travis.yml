@@ -12,4 +12,5 @@ script:
   - coverage run --source=tutorial_test setup.py test
 
 after_success:
+  - coverage report
   - coveralls
